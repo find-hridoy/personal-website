@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header Area */
+.header-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+.header-text{
+    width: 40%;
+    float: left;
+    margin: 5% 0 0 5%;
+    padding: 8% 0 0 10%;
+}
+.header-text h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+.header-text h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: #EC5482;
+    letter-spacing: 3px;
+    margin-top: -20px;
+}
+.header-text p{
+    color: dimgray;
+    font-size: 14px;
+}
+/* Button */
+.section-btn a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #EC5482;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 15px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+}
+.section-btn a:hover{
+    background: transparent;
+    color: #EC5482;
+    border: 2px solid #EC5482;
+}
+.header-image{
+    width: 32%;
+    float: left;
+    margin-top: 5%;
+}
+.header-image img{
+    width: 100%;
+}
+/* Biography Area */
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.biography-image{
+    width: 30%;
+    float: left;
+    margin: 2% 0 0 5%;
+    padding: 5% 0 0 5%;
+}
+.biography-image img{
+    width: 100%;
+}
+.biography-text{
+    width: 40%;
+    float: left;
+   margin: 15% 0 0 10%;
+}
+.biography-text h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+.biography-text p{
+    color: dimgray;
+    font-size: 14px;
+}
+/* My Work Area */
+.work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    text-align: center;
+}
+.work-title{
+    font-size: 20px;
+}
+.work-image{
+    margin-left: 10%;
+    padding: 20px 0;
+}
+.image-box{
+    width: 26%;
+    float: left;
+    margin-left: 3%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.image-box:hover{
+    box-shadow: 10px 10px 40px gray;
+}
+.image-box img{
+    width: 100%;
+}
+/* Footer Area */
+.footer-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0 120px 0;
+    text-align: center;
+}
+.client-area h1{
+    font-size: 30px;
+}
+.client-area h3{
+    font-size: 16px;
+    margin-top: 50px;
+}
+.client-area h5{
+    font-size: 12px;
+    color: dimgray;
+    margin-top: -12px;
+}
+.client-area p{
+    font-size: 14px;
+    font-weight: 500;
+    color: dimgray;
+    margin-top: 30px;
+}
+.contact-area{
+    width: 550px;
+    margin: auto;
+    height: 100px;
+    background: #EC5482;
+    border-radius: 10px;
+    padding: 5px 0 15px 0;
+    margin-top: 60px;
+}
+.contact-area p{
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+}
+.contact-area a{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.contact-area a:hover{
+    text-decoration: underline;
+}
+/* Footer */
+footer{
+    text-align: center;
+    height: 50px;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 500;
+    color: dimgray;
+}
+footer .my-name{
+    color: #EC5482;
+    font-weight: 800;
+    cursor: pointer;
+}
