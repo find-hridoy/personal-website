@@ -37,7 +37,7 @@ body{
 .section-btn a{
     text-decoration: none;
     padding: 10px 25px;
-    background: #EC5482;
+    background: linear-gradient(90deg, #EC5482, #ED4B72);
     display: inline-block;
     color: white;
     font-size: 15px;
@@ -54,7 +54,7 @@ body{
     border: 2px solid #EC5482;
 }
 .header-image{
-    width: 32%;
+    width: 35%;
     float: left;
     margin-top: 5%;
 }
@@ -71,7 +71,7 @@ body{
     padding-bottom: 50px;
 }
 .biography-image{
-    width: 30%;
+    width: 40%;
     float: left;
     margin: 2% 0 0 5%;
     padding: 5% 0 0 5%;
@@ -82,7 +82,7 @@ body{
 .biography-text{
     width: 40%;
     float: left;
-   margin: 15% 0 0 10%;
+   margin-top: 15%;
 }
 .biography-text h1{
     font-size: 35px;
@@ -153,8 +153,8 @@ body{
 .contact-area{
     width: 550px;
     margin: auto;
-    height: 100px;
-    background: #EC5482;
+    height: 110px;
+    background: linear-gradient(90deg, #EC5482, #ED4B72);
     border-radius: 10px;
     padding: 5px 0 15px 0;
     margin-top: 60px;
@@ -188,5 +188,5 @@ footer p{
 footer .my-name{
     color: #EC5482;
     font-weight: 800;
-    cursor: pointer;
+    text-decoration: none;
 }
